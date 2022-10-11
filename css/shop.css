@@ -1,0 +1,27 @@
+*{
+     /* outline: 1px solid gray */
+}
+
+.card img {
+       width: 9rem;
+
+}
+
+
+.column{
+    width: 12rem;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+}
+.card {
+    /* border: 1px solid black; */
+    /* background-color: lightblue; */
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-bottom: 50px;
+    padding-left: 8px;
+  }
+
