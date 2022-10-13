@@ -45,14 +45,14 @@ svg{
 }
 
 h2{
-    margin-left: 8rem;
+    text-align: center;
     font-weight: 400;
     color: rgb(17, 17, 17)
 }
 
 h5{
     font-weight: 300;
-    margin-left: 19rem;
+    text-align: center;
 }
 
 .form-label{
@@ -63,10 +63,15 @@ h5{
     background-color: #242121; /* Green */
     border: none;
     color: white;
-    padding: 15px 62px;
-    margin-left: 18rem;
+    padding: 8px 32px;
+    margin-left: 16rem;
     text-align: center;
     display: inline-block;
     font-size: 26px;
-    width: 550px;
+    width: 400px;
+  }
+
+  svg{
+    margin-right: 1rem;
+    color: black;
   }

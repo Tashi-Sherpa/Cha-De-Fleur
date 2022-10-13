@@ -22,17 +22,17 @@ header{
 
 
 ul li{
-    padding-left: rem;
+    padding-left: 0rem;
 }
 
 li{
-    margin: 20px 0;
+    margin: 10px;
   }
 
   ul {
-        margin-right: 40px;
+        margin-right: 10px;
         display: grid;
-        gap: 25px;
+        gap: 2px;
 }
 
 svg{
