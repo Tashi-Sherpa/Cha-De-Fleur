@@ -1,0 +1,53 @@
+header{
+    background-color: #7fa188;
+    height:100vh;
+    background-image: url("/images/Ricearea.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link{
+    margin-right: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.logo-img{
+    height:140px;
+    padding-left: 2rem;
+}
+
+
+ul li{
+    padding-left: rem;
+}
+
+li{
+    margin: 20px 0;
+  }
+
+  ul {
+        margin-right: 40px;
+        display: grid;
+        gap: 25px;
+}
+
+svg{
+    margin-right: 1rem;
+}
+
+h1{
+    padding-left: 12rem;
+
+    color: beige
+
+
+}
+
+.form-label{
+    color: beige
+}
+
