@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>User Login</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-no" />
+  <title>#BEYONDTASTE</title>
+  <link rel="stylesheet" href="/css/index.css"> <link rel="stylesheet">
+  <!--Font Awesome Icons;-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"></script>
+  <!-- Core theme CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+<body>
+
+  <header>
+
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fw-bold" id="Main Nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <a href="index.html">
+                <img src="images/Logosm.png" alt="Brand logo" class="logo-img"></a></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class=" text-light g-dark nav-link" href="shop.html">SHOP</a> </li>
+                  <li class="nav-item"><a class=" text-light g-dark nav-link" href="Ceremonies.html">CEREMONIES</a></li>
+                  <li class="nav-item"><a class=" text-light g-dark nav-link " href="Teaspaceoriginal.html">TEA SPACE</a></li>
+                  <li class="nav-item"><a class=" text-light g-dark nav-link" href="Userregistration.html">RESERVATIONS</a></li>
+                  <li class="nav-item"><a class=" text-light g-dark nav-link " href="login.html">LOGIN</a></li>
+    
+    
+                </ul>
+            </div>
+            <a href="Checkout.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor"
+                    class="bi bi-cart" viewBox="0 0 16 16" color="white">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+</header>
+<br> 
 
 <section class="vh-100">
     <style>
@@ -16,58 +60,43 @@
           background-color: #7d9783;
         }
         </style>
-    <div class="container py-5 h-100">
-      <div class="row d-flex align-items-center justify-content-center h-100">
-        <div class="col-md-8 col-lg-7 col-xl-6">
-          <img src="images/Login cover.jpg"
-            class="img-fluid" alt="Tea image">
-        </div>
-        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-          <form>
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-                <h2 style="color:white;">
-                <body>
-            <img src="images/Green & Beige Illustrated Matcha Tea Logo (2).png" alt="Brand Logo" height="150" ></a> 
-            Login</h2>
-              <input type="email" id="form1Example13" class="form-control form-control-lg" />
-              <label style="color :beige; class="form-label" for="form1Example13">Email address</label>
+
+<div class="signup-form">	
+          <form action="/examples/actions/confirmation.php" method="post">
+          <h2>Create Account</h2>
+              <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" class="form-control" name="username" placeholder="Username" required="required">
             </div>
-  
-            <!-- Password input -->
-            <div class="form-outline mb-4">
-              <input type="password" id="form1Example23" class="form-control form-control-lg" />
-              <label style="color :beige;class="form-label" for="form1Example23">Password</label>
-            </div>
-  
-            <div class="d-flex justify-content-around align-items-center mb-4">
-              <!-- Checkbox -->
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
-                <label style="color :beige; class="form-check-label" for="form1Example3"> Remember me </label>
               </div>
-              <a href="#!">Forgot password?</a>
+              <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+              <input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
             </div>
-  
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-  
-            <div class="divider d-flex align-items-center my-4">
-              <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+              </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+              <input type="text" class="form-control" name="password" placeholder="Password" required="required">
             </div>
-  
-            <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
-              role="button">
-              <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
-            </a>
-            <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!"
-              role="button">
-              <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
-  
+              </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <i class="fa fa-lock"></i>
+                <i class="fa fa-check"></i>
+              </span>
+              <input type="text" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+            </div>
+              </div>        
+          <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+              </div>
+          <p class="small text-center">By clicking the Sign Up button, you agree to our <br><a href="#">Terms &amp; Conditions</a>, and <a href="#">Privacy Policy</a>.</p>
           </form>
-        </div>
+        <div class="text-center">Already have an account? <a href="#">Login here</a>.</div>
       </div>
-    </div>
-  </section>
-  </html>
-  
+      </body>
+      </html>

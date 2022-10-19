@@ -1,61 +1,126 @@
 header{
-    background-color: #7fa188;
-    height:100%;
-    background-position: center;
-    background-size: cover;
+  background-color: #7fa188;
+  height: 100vh;
+  background-image: url("/images/Ricearea.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.nav-link{
-    margin-right: 15px;
-    margin-left: 10px;
-    text-transform: uppercase;
-    color: whitesmoke;
-    font-weight: 900;
-    font-style: oblique;
-}
 
 .logo-img{
-    height:140px;
-    padding-left: 2rem;
+  height:140px;
+  padding-left: 2rem;
 }
 
 
-ul li{
-    padding-left: 0rem;
+.nav-link{
+  margin-right: 5px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: med;
 }
 
-li{
-    margin: 10px;
-  }
+.navbar-nav li {
+  padding: 0 10px;
+}
 
-  ul {
-        margin-right: 10px;
+
+ul.myUL {
+  text-align: left;
+  padding-left: 500px;
+  margin-right: 12px;
         display: grid;
-        gap: 2px;
+        gap: 20px;
 }
 
 svg{
     margin-right: 1rem;
 }
 
+.teaspace{
+  background-color: #d5e2d8;
+  background-image: url("/images/homepage3.avif");
+  height: 550px; width: 7000;
+
+}
+
+.ceremonies{
+  background-color: #d5e2d8;
+  background-image: url("/images/oriento-dPUWgZLsOk8-unsplash.jpg");
+  height: 550px;
+
+
+}
+.centered {
+  color:rgb(12, 11, 11)
+}
 h1{
- margin-right:53rem;
-    color: beige
+  text-align: center;
+ margin-right:42rem;
+    color: rgb(29, 29, 28)
+   }
 
+   h1{
+    text-align: center;
+    margin-right:2rem;
 
-}
+       color: rgb(24, 24, 11)
+      }
+   
+      service-img{
+        height:min-content;
 
-.form-label{
+      }
+
+      .form-label{
     margin-right:1rem;
+    max-width: 6em;
     color: beige
 }
 
+h2{
+  text-align: center;
+  color: bisque;
+}
+
+h4{
+  text-align: left;
+  color: bisque;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.form-btn{
+    margin-right: 9rem;
+}
 
 .container {
   position: relative;
   text-align: center;
-  color: rgb(196, 39, 39);
+  color: rgb(12, 11, 11);
 }
+
+
 
 .bottom-left {
   position: absolute;
