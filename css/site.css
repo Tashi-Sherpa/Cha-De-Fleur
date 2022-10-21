@@ -22,7 +22,9 @@ header{
 }
 
 .navbar-nav li {
-  padding: 0 10px;
+  padding: 0 30px;
+  font-weight: 6000;
+  font-size: x-large;
 }
 
 
@@ -85,8 +87,9 @@ h2{
 }
 
 h4{
-  text-align: left;
+  text-align: center;
   color: bisque;
+  font-weight: 100;
 }
 
 
@@ -122,34 +125,6 @@ h4{
 
 
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+.btn{
+  margin-left: 9rem;
 }
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
